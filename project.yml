@@ -1,4 +1,12 @@
-
-
 name: Test Project from Github
 description: Test Project from Github!
+
+devices:
+  SoM From Github:
+    category: SoMs
+    description: Stub System on Module
+
+  Stub Device From Github:
+    contains:
+      - som_from_github
+    category: Complex devices
